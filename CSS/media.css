@@ -1,0 +1,244 @@
+@media only screen and (max-width : 431px) {
+
+  .container {
+    width: 90%;
+    height: auto;
+  }
+
+  .logo a {
+    font-size: 35px;
+  }
+
+  .header-nav nav {
+    display: none;
+  }
+
+  .touggle-menu {
+    display: block;
+    font-size: 24px;
+  }
+
+  .hero-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .hero-content h1 {
+    font-size: 34px;
+  }
+
+  .hero-content p {
+    font-size: 17px;
+    padding-bottom: 15px;
+  }
+
+  .hero-image {
+    margin-top: 50px;
+  }
+
+  .hero-content {
+    order: 1;
+  }
+
+  .hero-image {
+    order: 2;
+  }
+
+
+  .about-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    /* gap: 30px; */
+  }
+
+  .section-info h2 {
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .why-us-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .why-us-content1 h2 {
+    font-size: 25px;
+    margin-top: 25px;
+  }
+
+  .why-us-content1 nav {
+    margin-top: 49px;
+  }
+
+  .why-us-content1 nav ul li {
+    font-size: 16px;
+  }
+
+  .why-us-content1 {
+    order: 2;
+  }
+
+  .why-us-content2 {
+    order: 1;
+  }
+
+  .skill-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .skill-content h2 {
+    font-size: 22px;
+    padding-bottom: 22px;
+  }
+
+  .skill-content p {
+    padding: 0 18px;
+  }
+
+  .skill-content nav ul li {
+    font-size: 14px;
+  }
+
+  .skill-content {
+    order: 1;
+  }
+
+  .silll-img {
+    order: 2;
+  }
+
+  .silll-img img {
+    background-color: var(--color5);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .service-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .process-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .cta-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .team-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .team-image {
+    width: 160px;
+    height: 110px;
+    gap: 40px;
+  }
+
+  .team-image img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .team-box {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .team-content {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .team-content .line {
+    margin: auto;
+  }
+
+  .price-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .questions-container {
+    width: 90%;
+  }
+
+  .questions-content p {
+    font-size: 18px;
+  }
+
+  .Subscribe-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .Subscribe-image {
+    order: 1;
+  }
+
+  .Subscribe-content {
+    order: 2;
+  }
+
+  .process-content {
+    padding-top: 25px;
+  }
+
+  .msg {
+    width: 90%;
+  }
+
+  .msg button {
+    width: 70px;
+  }
+
+  #contact {
+    width: 90%;
+    margin: auto;
+  }
+
+  .contact-container {
+    width: 100%;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .contact-details {
+    width: 100%;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    justify-items: stretch;
+  }
+
+  .contact-form {
+    width: 100%;
+    justify-content: space-between;
+    justify-items: stretch;
+  }
+
+  .contact-form {
+    order: 1;
+  }
+
+  .contact-details {
+    order: 2;
+  }
+
+  textarea {
+    width: 95%;
+  }
+
+  .join-container {
+    width: 90%;
+  }
+
+  .test-container {
+    width: 90%;
+  }
+}

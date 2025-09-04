@@ -23,50 +23,66 @@
 
 <body>
   <header>
-    <div class="container">
-      <div class="logo"><a href="index.html">Arsha</a></div>
+
+
+    <div class="header-container">
+      <a href="#" class="logo">Arsha</a>
+
+      
+
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">Team</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#"><button>Get Started</button></a>
+          </li>
+        </ul>
+      </nav>
+
       <div class="list">
-        <i class="bi bi-list"></i>
+        <i class="fa-solid fa-bars"></i>
       </div>
-
-      <div class="header-nav">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-
-        <div class="touggle-menu">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-
-      </div>
-
-      <div class="header-btn">
-        <a href="#"><button>Get Started</button></a>
-      </div>
-
     </div>
+
   </header>
 
   <section id="hero-section">
     <div class="hero-container">
-      <div class="hero-content">
-        <h1>Better Solutions For Your Business</h1>
-        <p>
-          We are team of talented designers making websites with Bootstrap
-        </p>
-        <a href="#"><button>Get Started</button></a>
-      </div>
-      <div class="hero-image">
-        <img src="./IMAGES/hero-img.png" alt="hero-img" />
+      <div class="hero-box">
+        <div class="hero-content">
+          <h1>Better Solutions For Your Business</h1>
+          <p>
+            We are team of talented designers making websites with Bootstrap
+          </p>
+          <a href="#"><button>Get Started</button></a>
+        </div>
+        <div class="hero-image">
+          <img src="./IMAGES/hero-img.png" alt="hero-img" />
+        </div>
       </div>
     </div>
   </section>
@@ -224,37 +240,36 @@
     </div>
     <div class="service-container">
       <div class="service-box">
-        <i class="fa-regular fa-circle-check"></i>
-        <h3 class="service-hedding"><a href="#">Lorem Ipsum</a></h3>
+       <div class="service-icon"> <i class="bi bi-activity icon"></i></div>
+        <div class="service-hedding"><a href="#">Lorem Ipsum</a></div>
         <p>
           Voluptatum deleniti atque corrupti quos dolores et quas molestias
           excepturi
         </p>
       </div>
       <div class="service-box">
-        <i class="fa-regular fa-circle-check"></i>
-        <h3 class="service-hedding"><a href="#">Sed ut perspici</a></h3>
+        <div class="service-icon"> <i class="bi bi-bounding-box-circles icon"></i></div>
+        <div class="service-hedding"><a href="#">Sed ut perspici</a></div>
         <p>
           Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore
         </p>
       </div>
       <div class="service-box">
-        <i class="fa-regular fa-circle-check"></i>
-        <h3 class="service-hedding"><a href="#">Magni Dolores</a></h3>
+        <div class="service-icon"> <i class="bi bi-calendar4-week icon"></i></div>
+        <div class="service-hedding"><a href="#">Magni Dolores</a></div>
         <p>
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia
         </p>
       </div>
       <div class="service-box">
-        <i class="fa-regular fa-circle-check"></i>
-        <h3 class="service-hedding"><a href="#">Nemo Enim</a></h3>
+        <div class="service-icon"> <i class="bi bi-broadcast icon"></i></div>
+        <div class="service-hedding"><a href="#">Nemo Enim</a></div>
         <p>
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
           blanditiis
         </p>
-      </div>
     </div>
   </section>
 
@@ -680,20 +695,24 @@
         <p href="#"><i class="fa-solid fa-circle-question"></i> Non consectetur a erat nam at lectus urna duis?</p>
       </div>
       <div class="questions-content">
-        <p href="#"><i class="fa-solid fa-circle-question"></i> Feugiat scelerisque varius morbi enim nunc faucibus a
-          pellentesque?</p>
+        <p href="#"><i class="fa-solid fa-circle-question"></i> Feugiat scelerisque varius morbi enim nunc faucibus
+          apellentesque?</p>
+
       </div>
       <div class="questions-content">
-        <p href="#"><i class="fa-solid fa-circle-question"></i> Dolor sit amet consectetur adipiscing elit
-          pellentesque?</p>
+        <p href="#"><i class="fa-solid fa-circle-question"></i> Dolor sit amet consectetur adipiscing elitpellentesque?
+        </p>
+
       </div>
       <div class="questions-content">
-        <p href="#"><i class="fa-solid fa-circle-question"></i> Ac odio tempor orci dapibus. Aliquam eleifend mi in
-          nulla?</p>
+        <p href="#"><i class="fa-solid fa-circle-question"></i> Ac odio tempor orci dapibus. Aliquam eleifend mi
+          innulla?</p>
+
       </div>
       <div class="questions-content">
         <p href="#"><i class="fa-solid fa-circle-question"></i> Tempus quam pellentesque nec nam aliquam sem et tortor
           consequat?</p>
+
       </div>
     </div>
   </section>
@@ -728,14 +747,22 @@
     </div>
 
     <div class="process-container">
-      <div class="process-box">
+      <div class="blog-box">
         <div class="process-image">
           <img src="./IMAGES/blog-post-1.webp" alt="blog-post-1" />
         </div>
         <div class="process-content">
           <h3>Eum ad dolor et. Autem aut fugiat debitis</h3>
-          <p class="blog-icorn"> <a href="#"><i class="fa-solid fa-user"></i></a> &nbsp;Julia Parker &nbsp; / &nbsp; <a
-              href="#"><i class="fa-solid fa-folder"></i> </a> &nbsp;Politics</p>
+          
+          <div class="blog-icorn">
+
+             <p><i class="fa-solid fa-user"></i> Julia Parker</p>
+
+             <p class="slash">/</p>
+
+             <p><i class="fa-solid fa-folder"></i> Politics</p>
+          </div>
+
           <div class="blog-button">
             <a href="#"><button>Read More<i class="fa-solid fa-arrow-right-long"></i></button>
             </a>
@@ -743,14 +770,20 @@
         </div>
       </div>
 
-      <div class="process-box">
+      <div class="blog-box">
         <div class="process-image">
           <img src="./IMAGES/blog-post-2.webp" alt="blog-post-2" />
         </div>
         <div class="process-content">
           <h3>Et repellendus molestiae qui est sed omnis</h3>
-          <p class="blog-icorn"> <a href="#"><i class="fa-solid fa-user"></i></a> &nbsp;Mario Douglas &nbsp; / &nbsp; <a
-              href="#"><i class="fa-solid fa-folder"></i> </a> &nbsp;Sports</p>
+          <div class="blog-icorn">
+
+             <p><i class="fa-solid fa-user"></i> Mario Douglas</p>
+
+             <p class="slash">/</p>
+
+             <p><i class="fa-solid fa-folder"></i> Sports</p>
+          </div>
           <div class="blog-button">
             <a href="#"><button>Read More<i class="fa-solid fa-arrow-right-long"></i></button>
             </a>
@@ -758,14 +791,22 @@
         </div>
       </div>
 
-      <div class="process-box">
+      <div class="blog-box">
         <div class="process-image">
           <img src="./IMAGES/blog-post-3.webp" alt="blog-post-3" />
         </div>
         <div class="process-content">
           <h3>Quia assumenda est et veritati tirana ploder</h3>
-          <p class="blog-icorn"> <a href="#"><i class="fa-solid fa-user"></i></a> &nbsp;Lisa Hunter &nbsp; / &nbsp; <a
-              href="#"><i class="fa-solid fa-folder"></i> </a> &nbsp;Economics</p>
+
+          <div class="blog-icorn">
+
+             <p><i class="fa-solid fa-user"></i> Lisa Hunter</p>
+
+             <p class="slash">/</p>
+
+             <p><i class="fa-solid fa-folder"></i> Economics</p>
+          </div>
+          
           <div class="blog-button">
             <a href="#"><button>Read More<i class="fa-solid fa-arrow-right-long"></i></button>
             </a>
@@ -898,6 +939,55 @@
 
   </section>
 
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-box">
+        <a href="#" class="footer-logo">Arsha</a>
+        <p class="footer-address">A108 Adam Street New York, NY 535022</p>
+        <div class="footer-contact">
+        <span> Phone:</span>
+        <p class="footer-phone">+1 5589 55488 55</p>
+        </div>
+        <div class="footer-contact">
+        <span> Email: </span>
+        <p class="footer-email">info@example.com</p>
+        </div>
+      </div>
+
+      <div class="footer-box">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Home</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>About Us</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Services</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Terms of service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h3>Our Services</h3>
+        <ul>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Web Design</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Web Development</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Product Management</a></li>
+          <li><a href="#"><i class="bi bi-chevron-right"></i>Marketing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box footer-box-4">
+        <h3>Follow Us</h3>
+        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- jquery js link -->
   <script src="./JS/jquery.js"></script>
 
@@ -948,6 +1038,12 @@
       }
     });
   </script>
+
+   <script>window.addEventListener('scroll', function () {
+                let header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY > 0);
+            });
+        </script>
 
 
 </body>
